@@ -160,8 +160,6 @@ func getWaybackURLs(domain string, noSubs bool) ([]wurl, error) {
 		out = append(out, wurl{date: urls[1], url: urls[2]})
 	}
 
-	return out, nil
-
 }
 
 func getCommonCrawlURLs(domain string, noSubs bool) ([]wurl, error) {
