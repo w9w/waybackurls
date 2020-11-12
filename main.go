@@ -290,6 +290,4 @@ func getVersions(u string) ([]string, error) {
 		seen[s[5]] = true
 		out = append(out, fmt.Sprintf("https://web.archive.org/web/%sif_/%s", s[1], s[2]))
 	}
-
-	return out, nil
 }
